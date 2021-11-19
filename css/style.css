@@ -1,23 +1,38 @@
+/* font links  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
 /* ##################-- Primary Style --################################  */
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 15px;
 }
 
 /* ### Primary */
 :root {
-  -redcolor: hsl(0, 78%, 62%);
-  -cyancolor: hsl(180, 62%, 55%);
-  -orangcolor: hsl(34, 97%, 64%);
-  -bluecolor: hsl(212, 86%, 64%);
+  -red: hsl(0, 78%, 62%);
+  -cyan: hsl(180, 62%, 55%);
+  -orang: hsl(34, 97%, 64%);
+  -blue: hsl(212, 86%, 64%);
+
+  /*  ### Neutral*/
+
+  -darkblue: hsl(234, 12%, 34%);
+  -grayblue: hsl(229, 6%, 66%);
+  -lightgray: hsl(0, 0%, 98%);
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
