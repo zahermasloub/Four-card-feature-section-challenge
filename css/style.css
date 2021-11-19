@@ -12,6 +12,7 @@
 
 body {
   font-size: 15px;
+  background-color: var(-lightgray);
 }
 
 /* ### Primary */
@@ -26,6 +27,11 @@ body {
   -darkblue: hsl(234, 12%, 34%);
   -grayblue: hsl(229, 6%, 66%);
   -lightgray: hsl(0, 0%, 98%);
+
+  /* #######font  200, 400, 600 */
+  -smallfont: 200px;
+  -midumfont: 400px;
+  -largfont: 600px;
 }
 
 .attribution {
@@ -41,7 +47,6 @@ body {
 
 .container {
   margin: auto;
-  background-color: red;
 }
 
 /* ******mobile SCREEN******** */
