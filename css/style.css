@@ -64,6 +64,14 @@ body {
   font-size: 0.9rem;
 }
 
+/* Vertical CARDS STYLE */
+
+.VCards {
+  background-color: bisque;
+  height: 500px;
+  width: 300px;
+}
+
 /* ******mobile SCREEN******** */
 @media (min-width: 375px) {
   .container {
