@@ -41,6 +41,7 @@ body {
 
 .container {
   margin: auto;
+  background-color: red;
 }
 
 /* ******mobile SCREEN******** */
