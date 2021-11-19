@@ -11,7 +11,6 @@
 }
 
 body {
-  font-size: 15px;
   background-color: var(-lightgray);
 }
 
@@ -46,7 +45,9 @@ body {
 /* ##################-- Main Style --################################  */
 
 .container {
-  margin: auto;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .headers {
@@ -102,5 +103,26 @@ body {
 @media (min-width: 375px) {
   .container {
     width: 375px;
+  }
+}
+
+/* ******SMALL SCREEN******** */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* ******MEDIUM SCREEN******** */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* ******LARGE SCREEN******** */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
 }
