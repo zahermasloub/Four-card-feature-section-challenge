@@ -14,6 +14,14 @@
   -bluecolor: hsl(212, 86%, 64%);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* ##################-- Main Style --################################  */
 
 .container {
