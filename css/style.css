@@ -1,0 +1,49 @@
+/* ##################-- Primary Style --################################  */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ### Primary */
+:root {
+  -redcolor: hsl(0, 78%, 62%);
+  -cyancolor: hsl(180, 62%, 55%);
+  -orangcolor: hsl(34, 97%, 64%);
+  -bluecolor: hsl(212, 86%, 64%);
+}
+
+/* ##################-- Main Style --################################  */
+
+.container {
+  margin: auto;
+}
+
+/* ******mobile SCREEN******** */
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+/* ******SMALL SCREEN******** */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* ******MEDIUM SCREEN******** */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* ******LARGE SCREEN******** */
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
