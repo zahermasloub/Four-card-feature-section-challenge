@@ -46,7 +46,7 @@ body {
 /* ##################-- Main Style --################################  */
 
 .container {
-  width: inherit;
+  margin: auto;
 }
 
 .headers {
@@ -91,10 +91,6 @@ body {
   height: auto;
   width: 1200px;
   margin: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .cardOne-H,
