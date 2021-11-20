@@ -45,17 +45,22 @@ body {
 /* ##################-- Main Style --################################  */
 
 .container {
-  margin: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  overflow: none;
+  margin: auto;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding: 0;
+  /* align-items: center; */
 }
 
 .headers {
   align-items: center;
   text-align: center;
   margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 200px;
   line-height: 18px;
+  width: 580px;
+  height: 156px;
 }
 .upheader {
   font-size: 28.5px;
@@ -182,9 +187,9 @@ h4 {
     width: 970px;
   }
 }
-
+/* 
 @media (min-width: 1200px) {
   .container {
     width: 1351px;
   }
-}
+} */
