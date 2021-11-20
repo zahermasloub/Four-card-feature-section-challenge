@@ -16,9 +16,9 @@ body {
 
 /* ### Primary */
 :root {
-  -red: hsl(0, 78%, 62%);
-  -cyan: hsl(180, 62%, 55%);
-  -orang: hsl(34, 97%, 64%);
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orang: hsl(34, 97%, 64%);
   --blue: hsl(212, 86%, 64%);
 
   /*  ### Neutral*/
@@ -78,7 +78,6 @@ body {
 /* Vertical CARDS STYLE */
 
 .VCards {
-  background-color: bisque;
   margin-top: 50px auto;
   width: auto;
   display: flex;
@@ -112,6 +111,22 @@ body {
   padding-top: 13px;
 }
 
+.cardOne-V {
+  border-top: 3px solid var(--red);
+}
+
+.cardTwo-V {
+  border-top: 3px solid var(--orang);
+}
+
+.cardOne-H {
+  border-top: 3px solid var(--cyan);
+}
+
+.cardTwo-H {
+  border-top: 3px solid var(--blue);
+}
+
 h4 {
   color: hsl(234, 43%, 48%);
 }
@@ -122,6 +137,10 @@ img {
   height: 50px;
 }
 
+.cardOne-V {
+  margin-bottom: 60px;
+}
+
 /* ******mobile SCREEN******** */
 @media (min-width: 375px) {
   .container {
@@ -129,23 +148,20 @@ img {
   }
 }
 
-/* ******SMALL SCREEN******** */
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
 
-/* ******MEDIUM SCREEN******** */
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
 
-/* ******LARGE SCREEN******** */
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1351px;
   }
 }
