@@ -189,9 +189,9 @@ h4 {
     width: 970px;
   }
 }
-/* 
-@media (min-width: 1200px) {
+
+@media (min-width: 1440px) {
   .container {
-    width: 1351px;
+    width: 1440px;
   }
-} */
+}
