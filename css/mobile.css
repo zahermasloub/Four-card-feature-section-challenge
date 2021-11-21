@@ -2,6 +2,9 @@
 @media (max-width: 375px) {
   .container {
     width: 375px;
+    margin: auto;
+    padding: 0;
+    align-items: center;
   }
 
   body {
@@ -54,26 +57,22 @@ body {
 /* ##################-- Main Style --################################  */
 
 .container {
-  margin: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  padding: 0;
-  /* align-items: center; */
+ 
 }
 
 .headers {
   align-items: center;
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px;
   margin-right: 0px;
-  margin-left: 200px;
+  margin-left: 200px; */
   margin-bottom: 44px;
   line-height: 18px;
-  width: 580px;
+  width: 375px;
   height: 156px;
 }
 .upheader {
-  font-size: 28.5px;
+  font-size: 15px;
   font-weight: 200;
 }
 
