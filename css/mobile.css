@@ -1,0 +1,10 @@
+/* ******mobile SCREEN******** */
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+
+  body {
+    background-color: brown;
+  }
+}

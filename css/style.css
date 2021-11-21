@@ -178,13 +178,6 @@ h4 {
   margin-bottom: 60px;
 }
 
-/* ******mobile SCREEN******** */
-@media (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
