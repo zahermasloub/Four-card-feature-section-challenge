@@ -222,7 +222,7 @@ h4 {
     height: 156px;
   }
   .upheader {
-    font-size: 9px;
+    font-size: 22px;
     font-weight: 200;
   }
 
@@ -269,7 +269,7 @@ h4 {
     font-size: 15px;
     color: var(--grayblue);
     padding-top: 0;
-    text-align: left;
+    text-align: center;
   }
 
   .cardOne-V {
@@ -320,6 +320,6 @@ h4 {
   }
 
   .cardOne-V {
-    margin-bottom: 60px;
+    margin-bottom: 21px;
   }
 }
