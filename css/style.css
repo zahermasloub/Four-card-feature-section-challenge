@@ -66,11 +66,13 @@ body {
 .upheader {
   font-size: 28.5px;
   font-weight: 200;
+  margin-left: 112px;
 }
 
 .midel {
   font-size: 28.5px;
   font-weight: 600;
+  margin-left: 111px;
 }
 
 .downheader {
@@ -78,7 +80,7 @@ body {
   width: 380px;
   height: 81px;
   margin: auto;
-
+  text-align: center;
   font-size: 0.9rem;
 }
 
@@ -120,11 +122,19 @@ height: 251px;
 .cardOne-V,
 .cardTwo-V,
 .cardOne-H,
-.cardTwo-H p {
+.cardTwo-H,
+p {
   font-size: 15px;
   color: var(--grayblue);
   padding-top: 0;
   text-align: left;
+}
+.cardOne-V,
+.cardTwo-V,
+.cardOne-H,
+.cardTwo-H,
+h1 {
+  font-size: 1em;
 }
 
 .cardOne-V {
@@ -169,8 +179,8 @@ h4 {
 }
 
 .logoImag-4 {
-  margin-left: 165px;
-  margin-top: 58px;
+  margin-left: 197px;
+  margin-top: 80px;
   height: 58px;
 }
 
